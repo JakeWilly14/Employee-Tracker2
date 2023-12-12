@@ -1,5 +1,8 @@
-const CLI = require('./lib/cli');
+const CLI = require("./lib/cli");
+const db = require("./config/connection");
 
-const cli = new CLI();
+db.connect(function (err) {
+  if (err) throw err;
 
-cli.run();
+  CLI();
+});
