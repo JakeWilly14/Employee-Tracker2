@@ -20,6 +20,8 @@
   ## Usage
   Run the code npm start to begin the application. Select one of the choice list options to navigate through company database. Users may choose to add department, role, or employees to their database. There is also the option to update a pre existing employee with existing department and role information.
   
+  [Employee-Tracker-Demo.webm](https://github.com/JakeWilly14/Employee-Tracker2/assets/144076139/d7fe6c2e-af9a-4b63-855a-79ae9c2282d4)
+
   ## Contributors
   No further contributors.
   
