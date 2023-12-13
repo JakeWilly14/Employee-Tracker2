@@ -163,20 +163,3 @@ VALUES (
   ),
   NULL
 );
-
--- Store manager_id in temporary variable
--- SET @John_id = (
---     SELECT id
---     FROM employee
---     WHERE first_name = "John"
---         AND last_name = "Doe"
--- );
-
--- UPDATE employee
--- SET manager_id = @John_id
--- WHERE first_name = "Mike"
---     AND last_name = "Chan";​
-
--- SELECT *
--- FROM employee
--- WHERE manager_id IS NOT NULL;
